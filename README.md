@@ -19,6 +19,7 @@ This project aims to implement every feature and concept provided by Angular in 
   - Ngrx/store: 16.3.0
   - Node: v20.13.1
   - Npm: v10.5.2
+  - Tailwindcss: v3.4.3
 
 
 ### Setup
