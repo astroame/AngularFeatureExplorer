@@ -9,7 +9,20 @@ This project aims to implement every feature and concept provided by Angular in 
 ## Features Implemented
 
 - Initial Setup
+- Components:
+  - Component lifecycle *
+
+  - View encapsulation
+  
+  - Component interaction
+  - component styles
+  - sharing data between child and parent directives and components
+  - content projection
+  - dynamic component 
+  - angular elements
+
 - (Upcoming features will be listed here sequentially)
+
 
 ## Getting Started
 
@@ -46,3 +59,8 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+# ng commands:
+- ng g m components/Component --flat  (generate module)
+- ng g m components/Component --flat --routing  (generate module & routing module)
