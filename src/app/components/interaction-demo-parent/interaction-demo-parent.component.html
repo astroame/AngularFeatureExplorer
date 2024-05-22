@@ -1,0 +1,7 @@
+<div class="parent">
+    <h2>Parent Component</h2>
+    <app-interaction-demo-child [childMessage]="parentMessage" (messageEvent)="receiveMessage($event)" ></app-interaction-demo-child>
+    <p>{{ messageFromChild }}</p>
+    <p>{{ messageFromChildViaService }}</p>
+</div>
+  
