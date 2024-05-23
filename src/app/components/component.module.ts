@@ -5,6 +5,8 @@ import { ComponentRoutingModule } from './component-routing.module';
 import { EncapsulationDemoComponent } from './encapsulation-demo/encapsulation-demo.component';
 import { InteractionDemoParentComponent } from './interaction-demo-parent/interaction-demo-parent.component';
 import { InteractionDemoChildComponent } from './interaction-demo-child/interaction-demo-child.component';
+import { InlineStylesDemoComponent } from './styles/inline-styles-demo/inline-styles-demo.component';
+import { ExternalStylesDemoComponent } from './styles/external-styles-demo/external-styles-demo.component';
 
 
 
@@ -13,7 +15,9 @@ import { InteractionDemoChildComponent } from './interaction-demo-child/interact
     LifecycleDemoComponent,
     EncapsulationDemoComponent,
     InteractionDemoParentComponent,
-    InteractionDemoChildComponent
+    InteractionDemoChildComponent,
+    InlineStylesDemoComponent,
+    ExternalStylesDemoComponent
   ],
   imports: [
     CommonModule,
