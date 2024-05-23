@@ -5,6 +5,8 @@ import { LifecycleDemoComponent } from "./lifecycle-demo/lifecycle-demo.componen
 import { EncapsulationDemoComponent } from "./encapsulation-demo/encapsulation-demo.component";
 import { InteractionDemoParentComponent } from "./interaction-demo-parent/interaction-demo-parent.component";
 import { ExternalStylesDemoComponent } from "./styles/external-styles-demo/external-styles-demo.component";
+import { ParentDemoComponent } from './shareData/parent-demo/parent-demo.component';
+import { ChildDemoComponent } from './shareData/child-demo/child-demo.component';
 
 const routes: Routes = [
   {
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: "inline-styles-demo",
     component: InlineStylesDemoComponent
+  },
+  {
+    path: "share-data-parent-demo",
+    component: ParentDemoComponent
+  },
+  {
+    path: "share-data-child-demo",
+    component: ChildDemoComponent
   }
 ];
 

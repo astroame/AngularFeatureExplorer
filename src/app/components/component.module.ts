@@ -7,6 +7,8 @@ import { InteractionDemoParentComponent } from './interaction-demo-parent/intera
 import { InteractionDemoChildComponent } from './interaction-demo-child/interaction-demo-child.component';
 import { InlineStylesDemoComponent } from './styles/inline-styles-demo/inline-styles-demo.component';
 import { ExternalStylesDemoComponent } from './styles/external-styles-demo/external-styles-demo.component';
+import { ParentDemoComponent } from './shareData/parent-demo/parent-demo.component';
+import { ChildDemoComponent } from './shareData/child-demo/child-demo.component';
 
 
 
@@ -17,7 +19,9 @@ import { ExternalStylesDemoComponent } from './styles/external-styles-demo/exter
     InteractionDemoParentComponent,
     InteractionDemoChildComponent,
     InlineStylesDemoComponent,
-    ExternalStylesDemoComponent
+    ExternalStylesDemoComponent,
+    ParentDemoComponent,
+    ChildDemoComponent
   ],
   imports: [
     CommonModule,

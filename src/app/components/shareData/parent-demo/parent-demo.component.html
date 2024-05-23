@@ -1,0 +1,10 @@
+<div class="parent ml-3 border-solid border-3 border-gray-900 px-5 py-5 rounded bg-slate-300 w-1/2 mt-5">
+    <h2>Parent Component</h2>
+    <app-child-demo></app-child-demo>
+    <button class="btn mt-3" (click)="changeChildMessage()">Change Child Message</button>
+
+    <!-- Demo Two-way Data Binding with @Input and @Output -->
+    <app-child-demo [(count)]="parentCount"></app-child-demo>
+  <p>Parent Count: {{ parentCount }}</p>
+  </div>
+  

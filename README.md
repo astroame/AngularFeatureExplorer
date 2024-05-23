@@ -14,9 +14,8 @@ This project aims to implement every feature and concept provided by Angular in 
   - View encapsulation *
   - Component interaction *
   - component styles *
+  - sharing data between child and parent directives and components *
 
-  - sharing data between child and parent directives and components
-  
   - content projection
   - dynamic component 
   - angular elements
