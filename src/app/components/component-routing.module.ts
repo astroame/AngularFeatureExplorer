@@ -1,12 +1,14 @@
-import { InlineStylesDemoComponent } from './styles/inline-styles-demo/inline-styles-demo.component';
+import { InlineStylesDemoComponent } from "./styles/inline-styles-demo/inline-styles-demo.component";
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { LifecycleDemoComponent } from "./lifecycle-demo/lifecycle-demo.component";
 import { EncapsulationDemoComponent } from "./encapsulation-demo/encapsulation-demo.component";
 import { InteractionDemoParentComponent } from "./interaction-demo-parent/interaction-demo-parent.component";
 import { ExternalStylesDemoComponent } from "./styles/external-styles-demo/external-styles-demo.component";
-import { ParentDemoComponent } from './shareData/parent-demo/parent-demo.component';
-import { ChildDemoComponent } from './shareData/child-demo/child-demo.component';
+import { ParentDemoComponent } from "./shareData/parent-demo/parent-demo.component";
+import { ChildDemoComponent } from "./shareData/child-demo/child-demo.component";
+import { SingleSlotProjectionDemoComponent } from "./content-projection/single-slot-projection-demo/single-slot-projection-demo.component";
+import { MultiSlotProjectionDemoComponent } from "./content-projection/multi-slot-projection-demo/multi-slot-projection-demo.component";
 
 const routes: Routes = [
   {
@@ -19,24 +21,32 @@ const routes: Routes = [
   },
   {
     path: "interaction-demo-parent",
-    component: InteractionDemoParentComponent
+    component: InteractionDemoParentComponent,
   },
   {
     path: "external-styles-demo",
-    component: ExternalStylesDemoComponent
+    component: ExternalStylesDemoComponent,
   },
   {
     path: "inline-styles-demo",
-    component: InlineStylesDemoComponent
+    component: InlineStylesDemoComponent,
   },
   {
     path: "share-data-parent-demo",
-    component: ParentDemoComponent
+    component: ParentDemoComponent,
   },
   {
     path: "share-data-child-demo",
-    component: ChildDemoComponent
-  }
+    component: ChildDemoComponent,
+  },
+  {
+    path: "single-slot-projection-demo",
+    component: SingleSlotProjectionDemoComponent,
+  },
+  {
+    path: "multi-slot-projection-demo",
+    component: MultiSlotProjectionDemoComponent,
+  },
 ];
 
 @NgModule({

@@ -9,6 +9,8 @@ import { InlineStylesDemoComponent } from './styles/inline-styles-demo/inline-st
 import { ExternalStylesDemoComponent } from './styles/external-styles-demo/external-styles-demo.component';
 import { ParentDemoComponent } from './shareData/parent-demo/parent-demo.component';
 import { ChildDemoComponent } from './shareData/child-demo/child-demo.component';
+import { SingleSlotProjectionDemoComponent } from './content-projection/single-slot-projection-demo/single-slot-projection-demo.component';
+import { MultiSlotProjectionDemoComponent } from './content-projection/multi-slot-projection-demo/multi-slot-projection-demo.component';
 
 
 
@@ -21,7 +23,9 @@ import { ChildDemoComponent } from './shareData/child-demo/child-demo.component'
     InlineStylesDemoComponent,
     ExternalStylesDemoComponent,
     ParentDemoComponent,
-    ChildDemoComponent
+    ChildDemoComponent,
+    SingleSlotProjectionDemoComponent,
+    MultiSlotProjectionDemoComponent
   ],
   imports: [
     CommonModule,
