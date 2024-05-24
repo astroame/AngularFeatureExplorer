@@ -9,6 +9,7 @@ import { ParentDemoComponent } from "./shareData/parent-demo/parent-demo.compone
 import { ChildDemoComponent } from "./shareData/child-demo/child-demo.component";
 import { SingleSlotProjectionDemoComponent } from "./content-projection/single-slot-projection-demo/single-slot-projection-demo.component";
 import { MultiSlotProjectionDemoComponent } from "./content-projection/multi-slot-projection-demo/multi-slot-projection-demo.component";
+import { DynamicHostComponent } from "./dynamic-component/dynamic-host/dynamic-host.component";
 
 const routes: Routes = [
   {
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: "multi-slot-projection-demo",
     component: MultiSlotProjectionDemoComponent,
+  },
+  {
+    path: "dynamic-component-demo",
+    component: DynamicHostComponent,
   },
 ];
 

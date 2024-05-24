@@ -17,7 +17,8 @@ This project aims to implement every feature and concept provided by Angular in 
   - sharing data between child and parent directives and components *
   - content projection *
 
-  - dynamic component 
+  - dynamic component *
+
   - angular elements
 
 - (Upcoming features will be listed here sequentially)
